@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+    ============================================= -->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/colors.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/photoswipe/photoswipe.css" type="text/css" />
+    <link rel="stylesheet" href="css/photoswipe/default-skin/default-skin.css" type="text/css" />
+
+    <!--
+    <link rel="stylesheet" href="{% static "css/project.css" %}" type="text/css" />
+    -->
+
+    <!-- Document Title
+    ============================================= -->
+    <title>Home - Shop | Canvas</title>
+
+</head>
+
+<body class="stretched">
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" lazyload>
+
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Top Bar
+        ============================================= -->
+        <div id="top-bar" class="hidden-xs">
+
+            <div class="container clearfix">
+
+                <div class="col_half col_last fright nobottommargin">
+                    <div id="top-social">
+                        <ul>
+                            <li><a target="_blank" href="https://www.facebook.com/frank.polo.brown" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+                            <li><a target="_blank" href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+                            <li><a target="_blank" href="https://twitter.com/#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+                            <li><a target="_blank" href="#" class="si-youtube"><span class="ts-icon"><i class="icon-youtube"></i></span><span class="ts-text">Youtube</span></a></li>
+                            <li><a target="_blank" href="#" class="si-vimeo"><span class="ts-icon"><i class="icon-vimeo"></i></span><span class="ts-text">Vimeo</span></a></li>
+                            <li><a target="_blank" href="tel:+57-305-6713284" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+57-305-6713284</span></a></li>
+                            <li><a target="_blank" href="mailto:frank.polo.brown@arquitecto.com" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">frank.polo.brown@arquitecto.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- #top-bar end -->
+
+        <!-- Header
+        ============================================= -->
+        <header id="header" class="no-sticky">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="/logo.png" alt="Canvas Logo"></a>
+                        <a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="/logo@2x.png" alt="Canvas Logo"></a>
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="primary-menu" class="sub-title">
+
+                        <!-- OJO antiguo menu
+                        {% get_site_root as site_root %}
+                        {% top_menu parent=site_root calling_page=self %}
+                        -->
+
+                        <!-- Top Search
+                        ============================================= -->
+                        <!--
+                        <div id="top-search">
+                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Buscar...">
+                            </form>
+                        </div>
+                         -->
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+        {{ block "before-content" . }}
+        {{ end }}
+
+        <section id="content">
+            {{ block "content" . }}
+            {{ end }}
+        </section><!-- #content end -->
+    </div><!-- #wrapper end -->
+
+    <footer id="footer" class="notopmargin">
+        <div id="copyrights">
+
+            <div class="container clearfix">
+
+                <div class="col_half">
+                    Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+                    <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+                </div>
+
+                <div class="col_half col_last tright">
+                    <div class="fright clearfix">
+                        <a target="_blank" href="#" class="social-icon si-small si-borderless si-facebook">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                        </a>
+
+                        <a target="_blank" href="https://www.instagram.com/#" class="social-icon si-small si-borderless si-instagram">
+                            <i class="icon-instagram"></i>
+                            <i class="icon-instagram"></i>
+                        </a>
+
+                        <a target="_blank" href="https://twitter.com/#" class="social-icon si-small si-borderless si-twitter">
+                            <i class="icon-twitter"></i>
+                            <i class="icon-twitter"></i>
+                        </a>
+
+                        <a target="_blank" href="#" class="social-icon si-small si-borderless si-youtube">
+                            <i class="icon-youtube"></i>
+                            <i class="icon-youtube"></i>
+                        </a>
+
+                        <a target="_blank" href="#" class="social-icon si-small si-borderless si-vimeo">
+                            <i class="icon-vimeo"></i>
+                            <i class="icon-vimeo"></i>
+                        </a>
+
+                    <div class="clear"></div>
+
+                    <i class="icon-envelope2"></i> frank.polo.brown@arquitecto.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +57-305-6713284
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/plugins.js"></script>
+    <script type="text/javascript" src="/js/functions.js"></script>
+    <script type="text/javascript" src="js/photoswipe/photoswipe.js"></script>
+    <script type="text/javascript" src="js/photoswipe/photoswipe-ui-default.js"></script>
+    <!--
+    <script type="text/javascript" src="{% static "js/project.js" %}"></script>
+    -->
+
+    {{ block "extraJS" . }}
+    {{ end }}
+
+</body>
+</html>
