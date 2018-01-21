@@ -1,6 +1,6 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+languageCode = "es-us"
+languageLang = "es"
+title = "Pagina oficial de FrankPoloBrown - frankpolobrown.com"
 
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
